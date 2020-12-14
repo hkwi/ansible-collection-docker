@@ -4,7 +4,9 @@
     name:
       - docker
       - docker-engine
-      - docker-io
+      - docker.io
+      - containerd
+      - runc
     state: absent
   register: task_result
   until: task_result is success
@@ -17,8 +19,8 @@
       - apt-transport-https
       - ca-certificates
       - curl
+      - gnupg-agent
       - software-properties-common
-      - gnupg2
     state: present
   register: task_result
   until: task_result is success
