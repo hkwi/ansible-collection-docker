@@ -19,8 +19,10 @@ Supports the following Operating Systems:
 -   Fedora 27
 -   Fedora 29
 -   OracleLinux 7
--   Ubuntu 14.04
 -   Ubuntu 16.04
+-   Ubuntu 18.04
+-   Ubuntu 20.04
+-   Ubuntu 20.10
 
 ## Requirements
 
